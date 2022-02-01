@@ -27,7 +27,7 @@ Pour tester notre compilateur exécuter la commande ci-dessous, il existe deja u
 ```
 
 ## Tests
-[test1.algo](AlgoCompiler/test1.algo) : sans erreurs  
+[test1.algo](https://github.com/SofyanMZIZI/AlgoCompiler/blob/main/test1.algo) : sans erreurs  
 ```bash
 user@laptop:~$ ./algoCompiler test1.algo
 Ouverture reussie.
@@ -37,7 +37,7 @@ parser: true
 user@laptop:~$ 
 ```
 
-[test2.algo](AlgoCompiler/test2.algo) : erreur syntaxique
+[test2.algo](https://github.com/SofyanMZIZI/AlgoCompiler/blob/main/test2.algo) : erreur syntaxique
 ```bash
 user@laptop:~$ ./algoCompiler test2.algo
 Ouverture reussie.
@@ -46,7 +46,7 @@ line 13, column 11: syntax error
 user@laptop:~$
 ```
 
-[test3.algo](AlgoCompiler/test3.algo) : erreur lexical
+[test3.algo](https://github.com/SofyanMZIZI/AlgoCompiler/blob/main/test3.algo) : erreur lexical
 ```bash
 user@laptop:~$ ./algoCompiler test3.algo
 Ouverture reussie.
