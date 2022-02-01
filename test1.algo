@@ -1,0 +1,50 @@
+Algorithme test10
+
+Constante
+    a=1,
+    b=123,
+    pi=3.14,
+    toto="aze"
+
+Variable
+    entier abc,
+    reel _gnt,
+    charactere x,
+    entier y,
+    reel z
+
+Debut
+
+    a <- 12 +38/a - z+39
+    b <- 10
+
+    Pour a 1->100 Alors
+        Si a < 50 Alors
+            Ecrire(x)
+            Lire(x,y,z)
+        Sinon
+            Lire(x)
+        FinSi  
+    FinPour
+
+    Si a<b Alors
+        a <- z+d/3-10*Y
+    FinSi
+
+    Repeter
+        Si a < 50 Alors
+            Ecrire(x,r,ao)
+            Lire(x,y,z)
+        Sinon
+            Lire(x)
+        FinSi
+    Jusqu'a a<0
+
+    TantQue 10 -3 /z >= 0 - A Alors
+        x <- A - 10
+    FinTantQue
+
+    Si a<10 Alors
+
+    FinSi
+Fin
