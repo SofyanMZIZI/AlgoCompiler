@@ -3,6 +3,8 @@ default:
 	bison -o parser.c -d parser.y
 	gcc scanner.c parser.c -o algoCompiler
 	clear
+
+test:
 	./algoCompiler test1.algo
 	./algoCompiler test2.algo
 	./algoCompiler test3.algo
