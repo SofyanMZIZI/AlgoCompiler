@@ -15,7 +15,7 @@ Variable
 
 Debut
 
-    a <- 12 +38/a - z+39
+    a <- 12 + 38/a - z+39
     b <- 10
 
     Pour a 1->100 Alors
