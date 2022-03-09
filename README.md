@@ -1,7 +1,7 @@
 # AlgoCompiler
-AlgoCompiler est compilateur du langage algorithmique en français qui contient un analyseur lexical, syntaxique et sementique.\
+AlgoCompiler est un compilateur du langage algorithmique en français qui contient un analyseur lexical, syntaxique et sementique.\
 \
-Afin d'obtenir meilleure resultats nous avons utiliser [FLEX](https://www.cs.princeton.edu/~appel/modern/c/software/flex/flex.html) generateur d'analyseur lexical et aussi [BISON](https://www.gnu.org/software/bison/) pour generer l'analyseur syntaxique et ce qui cencerne l'analyseur semantique est programmer a la main
+Afin d'obtenir meilleure resultats nous avons utiliser [FLEX](https://www.cs.princeton.edu/~appel/modern/c/software/flex/flex.html) generateur d'analyseur lexical et aussi [BISON](https://www.gnu.org/software/bison/) pour generer l'analyseur syntaxique et ce qui cencerne l'analyseur semantique est programmé à la main
 \
 \
 Réalisé par
