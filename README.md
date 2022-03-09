@@ -21,7 +21,7 @@ user@laptop:~AlgoCompiler$ make
 ```
 
 ## Usage
-Pour tester notre compilateur exécuter la commande ci-dessous, il existe deja un fichier "test.algo" 
+Pour tester notre compilateur exécuter la commande ci-dessous, il existe deja des fichiers test1.algo
 ```bash
 ./algoCompiler <pathFile>.algo
 ```
