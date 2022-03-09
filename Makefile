@@ -4,6 +4,8 @@ default:
 	gcc scanner.c parser.c -o algoCompiler
 	clear
 	./algoCompiler test1.algo
+	./algoCompiler test2.algo
+	./algoCompiler test3.algo
 
 clean:
 	rm scanner.c algoCompiler parser.c parser.h
