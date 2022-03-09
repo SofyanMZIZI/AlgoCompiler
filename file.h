@@ -29,12 +29,12 @@ FILE* openFile(char *pathFile)
 
     if (isAlgoFile(pathFile)==TRUE && fichier!=NULL)
     {
-        fprintf(stdout, "Ouverture reussie.\n\n");
+        fprintf(stdout, "Ouverture reussie.\n");
         return fichier;
     }
     else
     {
-        fprintf(stderr, "ERREUR: file dosn't exist or ext file\n");
+        fprintf(stderr, "ERREUR: file dosn't exist or ext file is not .algo\n");
         exit(-2);
     }
 }

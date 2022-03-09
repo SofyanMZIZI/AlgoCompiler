@@ -9,7 +9,7 @@ Constante
 Variable
     entier abc,
     reel _gnt,
-    charactere x
+    charactere x,
     entier y,
     reel z
 
@@ -23,7 +23,7 @@ Debut
             Ecrire(x)
             Lire(x,y,z)
         Sinon
-            Lire(x)
+            Lire(x),
         FinSi  
     FinPour
 

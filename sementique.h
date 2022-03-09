@@ -4,9 +4,10 @@
 #include <string.h>
 struct symbole  smbl_sem ;
 
-enum TSYM{TALGO,TCONST,TVAR}	TSYM;
+enum TSYM {TALGO, TCONST, TVAR}	TSYM;
 
- struct T_TAB_IDF{
+struct T_TAB_IDF
+{
      
     char NOM[20];
     enum TSYM TIDF;

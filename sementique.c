@@ -13,16 +13,38 @@ void Symbole_Suiv(){
 
 }
 
-void table_id(){
- switch(tabTOKEN[l->smbl.CODE]){
-     case  ALGO_TOKEN : Symbole_Suiv();store_prog();break;
-     case  CONST_TOKEN : Symbole_Suiv();store_const();break;
-     case VAR_TOKEN : Symbole_Suiv();store_var();break ;
-     default : ; break;}}
+void table_id()
+{
+	switch(tabTOKEN[l->smbl.CODE])
+	{
+		case  ALGO_TOKEN :
+			Symbole_Suiv();
+			store_prog();
+			break;
+		
+		case  CONST_TOKEN :
+			Symbole_Suiv();
+			store_const();
+			break;
 
-void store_prog(node *l){
-    while((tabTOKEN[l->smbl.CODE]!=CONST_TOKEN)&&(tabTOKEN[l->smbl.CODE]!=VAR_TOKEN)&&(tabTOKEN[l->smbl.CODE]!=DEBUT_TOKEN)){
-		if(tabTOKEN[l->smbl.CODE==ID_TOKEN){
+		case VAR_TOKEN :
+			Symbole_Suiv();
+			store_var();
+			break ;
+
+		default :
+			break;
+	}
+}
+
+void store_prog(node *l)
+{
+    while((tabTOKEN[l->smbl.CODE]!=CONST_TOKEN)
+			&&(tabTOKEN[l->smbl.CODE]!=VAR_TOKEN)
+			&&(tabTOKEN[l->smbl.CODE]!=DEBUT_TOKEN))
+	{
+		if(tabTOKEN[l->smbl.CODE==ID_TOKEN)
+		{
 			strcpy((TAB_IDFS+i)->NOM,l->smbl.NOM);
 			(TAB_IDFS+i)->TIDF=TALGO;
 			i++;
