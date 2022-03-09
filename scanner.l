@@ -15,9 +15,9 @@ string \"(\\.|[^"\\])*\"
 
 %%
 
-"Algorithme"                  { columnNbr+=yyleng; return ALGO_TOKEN; }
-"Constante"                 { columnNbr+=yyleng; return CONST_TOKEN; }
-"Variable"                   { columnNbr+=yyleng; return VAR_TOKEN; }
+"Algorithme"            { columnNbr+=yyleng; return ALGO_TOKEN; }
+"Constante"             { columnNbr+=yyleng; return CONST_TOKEN; }
+"Variable"              { columnNbr+=yyleng; return VAR_TOKEN; }
 
 "Debut"                 { columnNbr+=yyleng; return DEBUT_TOKEN; }
 "Fin"                   { columnNbr+=yyleng; return FIN_TOKEN; }

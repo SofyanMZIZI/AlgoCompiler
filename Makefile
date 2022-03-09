@@ -4,9 +4,13 @@ default:
 	gcc scanner.c parser.c -o algoCompiler
 	clear
 
-test:
+test1:
 	./algoCompiler test1.algo
+
+test2:
 	./algoCompiler test2.algo
+
+test3:
 	./algoCompiler test3.algo
 
 clean:
