@@ -89,8 +89,7 @@ extern int yydebug;
     STRING_TOKEN = 295,
     INT_TYPE_TOKEN = 296,
     FLOAT_TYPE_TOKEN = 297,
-    STRING_TYPE_TOKEN = 298,
-    ERREUR_TOKEN = 299
+    STRING_TYPE_TOKEN = 298
   };
 #endif
 

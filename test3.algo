@@ -29,6 +29,8 @@ Debut
         FinSi  
     FinPour
 
+    %
+
     Si a<b Alors
         a <- z+d/3-10*Y
     FinSi

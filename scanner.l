@@ -75,7 +75,7 @@ string \"(\\.|[^"\\])*\"
                             sprintf(msg,"lexical error <%s>",yytext);
                             yyerror(msg);
                             columnNbr+=yyleng;
-                            return ERREUR_TOKEN;
+                            
                         }
 
 %%

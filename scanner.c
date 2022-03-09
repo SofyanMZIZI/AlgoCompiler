@@ -1051,7 +1051,7 @@ YY_RULE_SETUP
                             sprintf(msg,"lexical error <%s>",yytext);
                             yyerror(msg);
                             columnNbr+=yyleng;
-                            return ERREUR_TOKEN;
+                            
                         }
 	YY_BREAK
 case 45:
